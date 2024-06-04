@@ -9,12 +9,18 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
- /* background-color: var(--main-background-color);*/
   
-  color: var(--main-text-color);
+  /*color: var(--main-text-color);*/
+
+  --accent-color: #ff0070;
+  --main-text-color: #ffffff;
+  --main-background-image: url('../images/cover-image-dark.png');
+  --main-font-family: 'IBM Plex mono';
+  --main-font-size: 18px;
   
 }
 
 .header__decorated-element {
   display: block;
 }
+

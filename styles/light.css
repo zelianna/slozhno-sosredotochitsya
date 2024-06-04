@@ -11,18 +11,19 @@
     чем стили в медиазапросе предпочтений пользователя
   */
  /* --main-background-color: white;*/
-  --main-text-color: black;
 
-  /*background-color: var(--main-background-color);*/
-  
+  --accent-color: #353430;
+  --main-text-color: #000000;
+  --main-background-image: url('../images/cover-image-light.png');
+  --main-font-family: 'IBM Plex mono';
+  --main-font-size: 18px;
 
-  color: var(--main-text-color);
 }
 
 .header.theme_light {
   --main-background-image: url('../images/cover-image-light.png');
 }
 
-.header__decorated-element {
+/*.header__decorated-element {
   display: block;
-}
+}*/

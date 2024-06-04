@@ -4,11 +4,8 @@
 */
 :root {
   --accent-color: #ff0070;
-
   --main-text-color: #ffffff;
-
   --main-background-image: url('../images/cover-image-dark.png');
-
   --main-font-family: 'IBM Plex mono';
   --main-font-size: 18px;
   
