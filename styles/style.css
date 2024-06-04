@@ -5,12 +5,20 @@
 }
 
 .header {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: 1fr;
+  width: 100%;
+  max-width: 375px;
+  padding: 10px;
+  box-sizing: border-box;
+
   background-image: var(--main-background-image);
   background-size: cover;
   background-position: center;
-  height: 100%;
-  padding: 10px;
   
+  margin-block-end: 40px;
+  position: relative;
 }
 
 .header__decorated-element {
@@ -45,7 +53,9 @@
   height: 25px;
   border-top: 1px solid var(--accent-color);
   border-right: 1px solid var(--accent-color);
-  
+  grid-row: 1; /* Помещаем псевдоэлемент в первую строку */
+  justify-self: end; /* Выравниваем по правому краю */
+
   
 }
 
@@ -56,44 +66,60 @@
   height: 25px;
   border-bottom: 1px solid var(--accent-color);
   border-left: 1px solid var(--accent-color);
-  
 }
 
 .header__theme-menu {
-  margin-block-start: 75px;
+  margin-block-start: 40px;
   color: var(--accent-color);
   display: flex;
   flex-direction: column;
   align-items: end;
-  gap: 13px;
+  
   
 }
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 13px;
+  text-align: right;
+}
+
 
 .header__theme-menu-item {
   line-height: 18px;
   font-family: var(--main-font-family);
   font-size: var(--main-font-size);
-  padding: 0px 13px 0px 13px;
+  padding: 0px 5px 0px 5px;
+  display: block;
 }
 
-
 .header__title {
-  padding-inline-start: 10px;
+  font-family: IBM Plex Mono;
+
+  /*padding-inline-start: 0px;*/
   margin-block-start: 65px;
+  margin-block-end: 55px;
   color: #DB00FF;
   font-size: 116px;
   font-weight: 700;
   line-height: 95.7px;
   text-shadow: 4px 4px 0 var(--accent-color);
+
 }
 
 .header__text {
-  margin-block-start: 55px;
+  /*margin-block-start: 55px;*/
   line-height: 23.4px;
-  margin-block-end: 31px;
+  /*margin-block-end: 31px;*/
   font-weight: 700;
   font-size: 18px;
   padding-right: 30px;
+}
+
+.header__text:last-of-type {
+  margin-block-end: 31px;
 }
 
 .title-decor {
@@ -101,3 +127,5 @@
   background-color: #FF0070;
   
 }
+
+.
