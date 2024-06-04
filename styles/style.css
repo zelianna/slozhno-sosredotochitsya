@@ -3,3 +3,101 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
+
+.header {
+  background-image: var(--main-background-image);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  padding: 10px;
+  
+}
+
+.header__decorated-element {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  color: var(--accent-color);
+  font-size: 18px;
+}
+
+.header__decorated-element::before {
+  content: "REC";
+}
+
+.header__decorated-element::after {
+  content: "";
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  background-color: var(--accent-color);
+  border-radius: 50%; 
+  margin-left: 10px;
+  vertical-align: center; 
+  box-shadow: 0px 0px 4px 2px var(--accent-color);
+
+}
+
+.header::before {
+  content: "";
+  display: inline-block;
+  width: 25.04px;
+  height: 25px;
+  border-top: 1px solid var(--accent-color);
+  border-right: 1px solid var(--accent-color);
+  
+  
+}
+
+.header::after {
+  content: "";
+  display: inline-block;
+  width: 25.04px;
+  height: 25px;
+  border-bottom: 1px solid var(--accent-color);
+  border-left: 1px solid var(--accent-color);
+  
+}
+
+.header__theme-menu {
+  margin-block-start: 75px;
+  color: var(--accent-color);
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 13px;
+  
+}
+
+.header__theme-menu-item {
+  line-height: 18px;
+  font-family: var(--main-font-family);
+  font-size: var(--main-font-size);
+  padding: 0px 13px 0px 13px;
+}
+
+
+.header__title {
+  padding-inline-start: 10px;
+  margin-block-start: 65px;
+  color: #DB00FF;
+  font-size: 116px;
+  font-weight: 700;
+  line-height: 95.7px;
+  text-shadow: 4px 4px 0 var(--accent-color);
+}
+
+.header__text {
+  margin-block-start: 55px;
+  line-height: 23.4px;
+  margin-block-end: 31px;
+  font-weight: 700;
+  font-size: 18px;
+  padding-right: 30px;
+}
+
+.title-decor {
+  color: #000028;
+  background-color: #FF0070;
+  
+}
