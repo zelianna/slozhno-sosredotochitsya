@@ -77,11 +77,36 @@
  text-transform: lowercase;
 }
 
+.header__theme-menu-button {
+  background-color: transparent;
+  border: none;
+  height: 26px;
+  padding: 0px 13px 0px 13px;
+  vertical-align: middle;
+  /*font-size: 25px;
+  line-height: 25px;
+  padding: 0px 25px 0px 25px;*/
+}
+
+.header__theme-menu-button:focus-visible {
+  border-bottom: 1px solid #FF007066;
+}
+
+.header__theme-menu-button:hover {
+  border: 1px solid #FF007066;
+  
+}
+
+.header__theme-menu-button_active {
+  pointer-events: none;
+  border: 1px solid #FF007066;
+}
+
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 13px;
+  gap: 10px;
   text-align: right;
 }
 
@@ -90,7 +115,8 @@
   line-height: 18px;
   font-family: var(--main-font-family);
   font-size: var(--main-font-size);
-  padding: 0px 5px 0px 5px;
+  
+  /*padding: 0px 5px 0px 5px;*/
   display: block;
 }
 
@@ -121,7 +147,7 @@
 }
 
 
-
+/* Стили при ширине окна просмотра >= 375px */
 @media (min-width: 375px) {
   .header {
     min-height: 668px;
@@ -139,12 +165,12 @@
   }
 
   .header__title {
-      /* Стили заголовка карточки при ширине окна просмотра >= 375px */
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     margin-block-start: 65px;
   }
 }
 
+/* Стили при ширине окна просмотра >= 768px */
 @media (min-width: 768px) {
   .header {
     min-height: 1024px;
@@ -162,7 +188,6 @@
   }
 
   .header__title {
-          /* Стили заголовка карточки при ширине окна просмотра >= 768px */
       font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
       margin-block-start: 173px;
       /*margin-block-end: 163px;*/
@@ -177,6 +202,7 @@
   }
 } 
 
+/* Стили при ширине окна просмотра >= 1024px */
 @media (min-width: 1024px) {
   .header {
     min-height: 768px;
@@ -200,9 +226,7 @@
     justify-content: center;
   }
   
-
   .header__title {
-          /* Стили заголовка карточки при ширине окна просмотра >= 1024px */
       font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
       margin-block-start: 173px;
       /*margin-block-end: 163px;*/

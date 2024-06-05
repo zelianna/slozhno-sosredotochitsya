@@ -18,12 +18,26 @@
   --main-font-family: 'IBM Plex mono';
   --main-font-size: 18px;
 
+  
 }
 
-.header.theme_light {
-  --main-background-image: url('../images/cover-image-light.png');
+.theme_light .header__decorated-element {
+  visibility: hidden;
 }
 
-/*.header__decorated-element {
-  display: block;
-}*/
+
+@media (prefers-color-scheme: light) {
+  :root {
+        /* Дублируем переменные светлой темы */    
+        --accent-color: #353430;
+        --main-text-color: #000000;
+        --main-background-image: url('../images/cover-image-light.png');
+        --main-font-family: 'IBM Plex mono';
+        --main-font-size: 18px;
+    }
+
+    .header__decorated-element {
+      visibility: hidden;
+    }
+}
+
