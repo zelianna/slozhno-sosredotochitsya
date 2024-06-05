@@ -17,6 +17,7 @@
   --main-background-image: url('../images/cover-image-light.png');
   --main-font-family: 'IBM Plex mono';
   --main-font-size: 18px;
+  --main-article-color: #353430;
 
   
 }
@@ -34,6 +35,8 @@
         --main-background-image: url('../images/cover-image-light.png');
         --main-font-family: 'IBM Plex mono';
         --main-font-size: 18px;
+        --main-article-color: #353430;
+        ;
     }
 
     .header__decorated-element {
