@@ -17,6 +17,8 @@
   --main-font-family: "IBM Plex mono";
   --main-font-size: 18px;
   --main-article-color: #353430;
+  --main-background-color: #FFF1F7;
+  
 }
 
 .theme_light .header__decorated-element {
@@ -32,6 +34,7 @@
     --main-font-family: "IBM Plex mono";
     --main-font-size: 18px;
     --main-article-color: #353430;
+    --main-background-color: #FFF1F7;
   }
 
   .header__decorated-element {
