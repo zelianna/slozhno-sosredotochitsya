@@ -9,11 +9,13 @@
   --main-font-family: 'IBM Plex mono';
   --main-font-size: 18px;
   --main-article-color: #F1B2CE;
-  
+  --title-color: #db00ff;
+  --title-decor-color: #000028;
+  --decor-background-color: #ff0070;
+  --main-background-color: #000028;
+  --title-shadow-color: #FF0070;
 
-  
 
-    --main-background-color: #000028;
 
 }
 

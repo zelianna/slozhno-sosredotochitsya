@@ -17,6 +17,14 @@
   --main-font-size: 18px;
   --main-article-color: #353430;
   --main-background-color: #FFF1F7;
+
+  --title-color: #FFC2E6;
+  --title-decor-color: #353430;
+  --decor-background-color: #FF8DCB;
+  --title-shadow-color: #FF0070;
+  
+
+
   
 }
 
@@ -34,6 +42,11 @@
     --main-font-size: 18px;
     --main-article-color: #353430;
     --main-background-color: #FFF1F7;
+
+    --title-color: #FFC2E6;
+    --title-decor-color: #353430;
+    --decor-background-color: #FF8DCB;
+    --title-shadow-color: #FF0070;
   }
 
   .header__decorated-element {
