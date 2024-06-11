@@ -11,7 +11,6 @@
   background-position: center;
   background-attachment: fixed;
   background-color: var(--main-background-color);
-  
 }
 
 .header {
@@ -82,6 +81,10 @@
   padding: 0px 13px 0px 13px;
   vertical-align: middle;
   line-height: 100%;
+}
+
+.header__theme-menu-button:default {
+  border: 1px solid #ff007066;
 }
 
 .header__theme-menu-button:focus-visible {
@@ -179,9 +182,23 @@
 }
 
 .link_shadow {
-  text-shadow: 1.5px 1.5px 0 var(--accent-color);
+  color: var(--link-color);
+  text-shadow: 1.5px 1.5px 0 var(--link-shadow-color);
+  /*text-decoration: underline;
+  text-underline-offset: 2px;*/
+}
+
+.link_shadow:default {
+  text-decoration: none;
+}
+
+.link_shadow:hover {
   text-decoration: underline;
   text-underline-offset: 2px;
+}
+
+.link_shadow:focus-visible {
+  border: 1px solid var(--link-color);
 }
 
 .main__section_what {

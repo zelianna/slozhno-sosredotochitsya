@@ -6,7 +6,7 @@
   --accent-color: #ff0070;
   --main-text-color: #ffffff;
   --main-background-image: url('../images/cover-image-dark.png');
-  --main-font-family: 'IBM Plex mono';
+  --main-font-family: 'IBM Plex mono', sans-serif;
   --main-font-size: 18px;
   --main-article-color: #F1B2CE;
   --title-color: #db00ff;
@@ -14,6 +14,8 @@
   --decor-background-color: #ff0070;
   --main-background-color: #000028;
   --title-shadow-color: #FF0070;
+  --link-color: #F1B2CE;
+  --link-shadow-color: #ff0070;
 
 
 
