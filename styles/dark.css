@@ -13,7 +13,7 @@
   --accent-color: #ff0070;
   --main-text-color: #ffffff;
   --main-background-image: url('../images/cover-image-dark.png');
-  --main-font-family: 'IBM Plex mono', sans-serif;
+  --main-font-family: 'IBM Plex mono', Courier, monospace;
   --main-font-size: 18px;
   --main-article-color: #F1B2CE;
   --title-color: #db00ff;
