@@ -24,7 +24,7 @@
   --title-shadow-color: #FF0070;
   --link-color: #353430;
   --link-shadow-color: #FF8DCB;
-  
+  --button-border-light: #32312D40;
 
 
   
@@ -51,6 +51,7 @@
     --title-shadow-color: #FF0070;
     --link-color: #353430;
     --link-shadow-color: #FF8DCB;
+    --button-border-light: #32312D40;
   }
 
   .header__decorated-element {

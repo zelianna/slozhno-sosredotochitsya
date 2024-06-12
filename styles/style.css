@@ -84,20 +84,20 @@
 }
 
 .header__theme-menu-button:default {
-  border: 1px solid #ff007066;
+  border: 1px solid var(--accent-color);
 }
 
 .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid #ff007066;
+  border-bottom: 1px solid var(--accent-color);
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid #ff007066;
+  border: 1px solid var(--button-border-light);
 }
 
 .header__theme-menu-button_active {
   pointer-events: none;
-  border: 1px solid #ff007066;
+  border: 1px solid var(--accent-color);
 }
 
 .header__theme-menu-list {
