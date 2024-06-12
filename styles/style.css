@@ -209,7 +209,6 @@
 }
 
 .gallery__title {
-  margin-top: 29px;
   margin-bottom: 10px;
 }
 
@@ -399,7 +398,7 @@
   }
 
   .gallery__title {
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom: 10px;
   }
 
@@ -558,7 +557,7 @@
   }
 
   .gallery__title {
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom: 20px;
   }
 
