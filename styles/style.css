@@ -166,17 +166,13 @@
 }
 
 .title-decor {
-  /*color: #000028;*/
   color: var(--title-decor-color);
-  /*background-color: #ff0070;*/
   background-color: var(--decor-background-color);
   font-weight: 700;
 }
 
 .title-decor-light {
-  /*color: #000028;*/
   color: var(--title-decor-color);
-  /*background-color: #ff0070;*/
   background-color: var(--decor-background-color);
   font-weight: 400;
 }
@@ -184,8 +180,6 @@
 .link_shadow {
   color: var(--link-color);
   text-shadow: 1.5px 1.5px 0 var(--link-shadow-color);
-  /*text-decoration: underline;
-  text-underline-offset: 2px;*/
 }
 
 .link_shadow:default {
@@ -236,7 +230,6 @@
 
 .footer__title {
   margin-block-end: 248px;
-  /*color: #db00ff;*/
   color: var(--title-color);
   font-size: 116px;
   font-weight: 700;
