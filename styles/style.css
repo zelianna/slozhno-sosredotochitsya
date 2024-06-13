@@ -480,12 +480,11 @@
   }
 
   .header__text {
-    width: 491px;
-    height: 71px;
+    min-width: 491px;
     margin-block-start: 77px;
     margin-block-end: 88px;
     margin-right: 0px;
-    margin-left: auto;
+    margin-inline-start: 493px;
     grid-row: 3 / 4;
     grid-column: 1 / 3;
     padding-right: 0px;
