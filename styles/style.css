@@ -458,6 +458,7 @@
     justify-content: center;
     padding-top: 417px;
     margin-block-end: 420px;
+    line-height: 99px;
   }
 }
 
@@ -587,6 +588,7 @@
   .footer__title {
     display: flex;
     justify-content: center;
+    line-height: 129.53px;
     padding-top: 289px;
     margin-block-end: 291px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
