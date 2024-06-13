@@ -427,6 +427,7 @@
     height: 100%;
   }
   .footer {
+    min-height: 1024px;
     padding: 55px 20px 20px 20px;
   }
 
@@ -434,7 +435,7 @@
     display: flex;
     justify-content: center;
     padding-top: 417px;
-    margin-block-end: 420px;
+    margin-block-end: 378px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     line-height: 99px;
   }
@@ -535,6 +536,6 @@
   .footer__title {
     line-height: 129.53px;
     padding-top: 270px;
-    margin-block-end: 278px;
+    margin-block-end: 245px;
   }
 }
