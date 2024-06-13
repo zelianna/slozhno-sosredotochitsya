@@ -77,6 +77,8 @@
 }
 
 .header__theme-menu-button {
+  appearance: none;
+  cursor: pointer;
   background-color: transparent;
   border: none;
   height: 26px;
@@ -91,6 +93,10 @@
 
 .header__theme-menu-button:focus-visible {
   border-bottom: 1px solid var(--accent-color);
+}
+
+.header__theme-menu-button:focus {
+  outline: none;
 }
 
 .header__theme-menu-button:hover {
@@ -195,6 +201,10 @@
 
 .link_shadow:focus-visible {
   border: 1px solid var(--link-color);
+}
+
+.link_shadow:focus {
+  outline: none;
 }
 
 .main__section_what {
