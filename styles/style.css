@@ -247,31 +247,12 @@
   font-size: 116px;
   font-weight: 700;
   line-height: 95.7px;
-  text-shadow: 4px 4px 0 var(--title-shadow-color);
+  text-shadow: 2px 2px 0 var(--title-shadow-color);
 
   padding-top: 252px;
   padding-left: 3px;
 }
 
-.footer::before {
-  content: "";
-  display: inline-block;
-  width: 25.04px;
-  height: 25px;
-  border-top: 1px solid var(--accent-color);
-  border-right: 1px solid var(--accent-color);
-  grid-row: 1;
-  justify-self: end;
-}
-
-.footer::after {
-  content: "";
-  display: inline-block;
-  width: 25.04px;
-  height: 25px;
-  border-bottom: 1px solid var(--accent-color);
-  border-left: 1px solid var(--accent-color);
-}
 
 /* Стили при ширине окна просмотра >= 375px */
 @media (min-width: 375px) {
@@ -458,6 +439,7 @@
     justify-content: center;
     padding-top: 417px;
     margin-block-end: 420px;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     line-height: 99px;
   }
 }
