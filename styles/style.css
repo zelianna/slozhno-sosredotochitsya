@@ -283,10 +283,6 @@
 
 /* Стили при ширине окна просмотра >= 768px */
 @media (min-width: 768px) {
-  .page {
-    padding-bottom: 25px;
-  }
-
   .header {
     min-height: 1024px;
     padding: 20px;
@@ -431,7 +427,7 @@
     height: 100%;
   }
   .footer {
-    min-height: 1024px;
+    min-height: 1049px;
     padding: 55px 20px 20px 20px;
   }
 
@@ -531,7 +527,7 @@
   }
 
   .footer {
-    min-height: 768px;
+    min-height: 793px;
     padding: 45px 20px 20px 20px;
   }
 
