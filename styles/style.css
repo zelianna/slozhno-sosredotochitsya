@@ -283,6 +283,10 @@
 
 /* Стили при ширине окна просмотра >= 768px */
 @media (min-width: 768px) {
+  .page {
+    padding-bottom: 25px;
+  }
+
   .header {
     min-height: 1024px;
     padding: 20px;
@@ -435,7 +439,7 @@
     display: flex;
     justify-content: center;
     padding-top: 417px;
-    margin-block-end: 378px;
+    margin-block-end: 417px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     line-height: 99px;
   }
@@ -528,12 +532,12 @@
 
   .footer {
     min-height: 768px;
-    padding: 45px 20px 0px 20px;
+    padding: 45px 20px 20px 20px;
   }
 
   .footer__title {
     line-height: 129.53px;
-    padding-top: 270px;
-    margin-block-end: 245px;
+    padding-top: 273px;
+    margin-block-end: 275px;
   }
 }
